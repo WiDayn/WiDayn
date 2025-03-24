@@ -18,10 +18,5 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_languages: true
-          plugin_languages_indepth: true
-          plugin_languages_other: false
-          plugin_languages_analysis_timeout: 60
-          plugin_languages_analysis_timeout_repositories: 15
-          plugin_languages_details: lines
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
